@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--Css-->
+	<link rel="stylesheet" type="text/css" href="..//css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="..//css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="..//css/Productos.css">
+
+	<!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="icon" type="image/png" href="https://laika.com.co/assets/home/laika_logo.png">
+	<title>Productos</title>
+
+</head>
+<body>
+
+	<header id="header">
+        <div class="container__header">
+            <div class="logo">
+	        <a href="..//Paginas/PaginaPrincipal.html"><img src="../imagenes/img/footer.png" alt=""></a>
+            </div>
+            <div class="container__nav">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="../Paginas/PaginaPrincipal.html" >Inicio</a></li>
+                        <li><a href="../Paginas/Nosotros.html">Nosotros</a></li>
+                        <li><a href="../Paginas/Productos.html"  class="select">Productos</a></li>
+                        <li><a href="../Paginas/Veterinaria.html" >Servicios</a></li>
+                        <li><a href="../Paginas/Promociones.html">Promociones</a></li>
+                        <li><a href="..//Paginas/CentroSoporte.html">Centro de Soporte</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
+                        <li><a href="..//Paginas/User.html"><i class="fas fa-user-alt"></i></a></li>
+                        <li class="submenu"><i class="fas fa-shopping-cart"> 
+							<div id="carrito">
+								<table id="lista-carrito" class="u-full-width">
+									<thead>
+										<tr>
+											<th>Imagen</th>
+											<th>Productos</th>
+											<th>Precio</th>
+										</tr>
+									</thead>
+									<tbody>										
+									</tbody>
+								</table>
+								<a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
+							</div></i></a></li>
+                    </ul>
+					<div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>                </nav>
+
+
+            </div>       
+        </div>
+    </header>
+    
+
+	<!--Slider Inicio-->
+    <div class="slider">
+        <div class="slides">
+            <!-- Boton de radio Inicio-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- Boton de radio Fin-->
+            <!-- Slider Imagen Inicio-->
+            <div class="slide first">
+                <img src="../imagenes/img/reemplazo1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="../imagenes/img/reemplazo2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="../imagenes/img/reemplazo4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="../imagenes/img/reemplazo6.jpg" alt="">
+            </div>
+            <!-- Slider Imagen Fin-->
+            <!--Navegacion Automatica Inicio
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            Navegacion Automatica Fin-->
+        </div>
+        <!--Navegacion Manual Inicio-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!-- Navegacion Manual Fin-->
+    </div>
+    <!--Slider Fin-->
+
+	<!--Barra Inicio-->
+	<div class="barra">
+		<div class="container">
+			<div class="row">
+				<div class="four columns icono icono1">
+					<a href="#"><p>Productos<br>Hamsters</p></a>
+				</div>
+				<div class="four columns icono icono2">
+					<a href="#"><p>Productos<br>Perros</p></a>
+				</div>
+				<div class="four columns icono icono3">
+				 	<a href="#"><p>Productos<br>Gatos</p></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Barra Fin-->
+
+	<!--Productos Inicio-->
+	<div id="lista-catalogo" class="container">
+		<h1 class="encabezado">Nuestros Productos</h1>
+		<div class="row">
+
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoG1.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Cat Chow</h4>
+						<p>Sabor : Carne</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/280.00<span class="u-pull-right">S/260.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoG2.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Ricocat</h4>
+						<p>Sabor : Carne , Pescado y Leche en bolsa</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 20.00<span class="u-pull-right">S/18.20</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoG3.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Whiskas</h4>
+						<p>Sabor : Pescado</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 25.00<span class="u-pull-right">S/22.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoH1.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Cariño</h4>
+						<p>Contiene Antioxidantes</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 219.00<span class="u-pull-right">S/200.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="four columns">
+				<div class="card">
+					<img src= "..//imagenes/img/ProductoH2.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Super Premium Vit Pro</h4>
+						<p>Contiene Pipas de Girasol , Cereal y Semillas</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 10.00<span class="u-pull-right">S/8.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoH3.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Brit Animals Hamster</h4>
+						<p>Contiene : Linaza</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 22.00<span class="u-pull-right">S/19.60</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src= "..//imagenes/img/ProductoP1.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Dog Chow</h4>
+						<p>Calcio para dientes fuertes</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 70.00<span class="u-pull-right">S/65.99</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoP2.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Pedigree</h4>
+						<p>Alimento Seco</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 129.99<span class="u-pull-right">S/123.90</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+			<div class="four columns">
+				<div class="card">
+					<img src="..//imagenes/img/ProductoP3.png" class="u-full-width">
+					<div class="info-card">
+						<h4>Ricocan</h4>
+						<p>Alimento Húmedo</p>
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<p class="precio">S/ 8.00<span class="u-pull-right">S/6.00</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Productos Fin-->
+
+	<!-- Footer Inicio-->
+    <footer>
+		<div class="container__footer"> 
+			<div class="box__footer">
+				<div class="logo">
+					<img src="..//imagenes/img/footer.png" alt="">
+				</div>
+				<div class="terms">
+					<p>Puedes Elegir Entre: </p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+					<p> Opción 1: Baño medicado completo + consulta médica + desparasitación para perros pequeños y medianos hasta 10 k</p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+					<p> Opción 2: Baño medicado completo + Consulta Médica + desparasitación para perros medianos hasta 20k  
+					</p>
+				</div>
+			</div>
+			<div class="box__footer">
+				<h2>Soluciones</h2><br><br>
+				<a href="#">App Desarrollo</a>
+				<a href="#">App Marketing</a>
+				<a href="#">IOS Desarrollo</a>
+				<a href="#">Android Desarrollo</a>
+			</div>
+	
+			<div class="box__footer">
+				<h2>Compañia</h2><br><br>
+				<a href="#">Acerca de </a>
+				<a href="#">Trabajos</a>
+				<a href="#">Procesos</a>
+				<a href="#">Servicios</a>    
+			</div>
+	
+			<div class="box__footer">
+				<h2>Redes Sociales</h2><br><br>
+				<a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+				<a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+				<a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+				<a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+			</div>
+		</div>
+	
+		<div class="box__copyright">
+			<hr style="background-color: white;">
+			<p>Todos los derechos reservados © 2021 
+				<b>CuidamiMascota</b>
+			</p>
+		</div>    
+	</footer>
+    <!-- Footer Fin -->
+
+	<script type="text/javascript" src="..//javascript/js/script.js"></script>
+
+</body>
+</html>

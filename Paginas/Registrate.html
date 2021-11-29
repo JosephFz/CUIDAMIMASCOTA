@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//css/Registro.css">
+    <link rel="icon" type="image/png" href="https://laika.com.co/assets/home/laika_logo.png">
+    <title>Registrate</title>
+</head>
+<body>
+    <div class="Regist_general">
+        <h1>Registrate</h1>
+        <div class="inputs">
+            <form action="..//Paginas/PaginaPrincipal.html" id="form" method="post" onsubmit= "return validar();" >
+                        <h2>Nombre de Usuario</h2>
+                        <input type="text" name="name" id="nomb" required>
+                        <h2>Contraseña</h2>
+                        <input type="password">
+                        <h2>Correo Electronico</h2>
+                        <input type="text" name="correo" id="correo"> <br>
+                        <h2>Fecha de Nacimiento</h2>
+                        <input type="date" > <br>
+        </div>
+        <div class="notifi">
+            <input type="checkbox" name="checkbox" id="" >
+            <p>Aceptas mandarte notificaciones</p>
+        </div>
+
+        <div class="confirms" >
+            <input type="submit"  onclick="getDataa()" value="Registrate" >
+        </div>
+            
+        
+            </form>
+    </div>
+    <script src="..//javascript/JS_principal/regist.js"></script>
+</body>
+</html>

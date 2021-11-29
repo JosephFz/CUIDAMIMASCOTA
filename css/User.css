@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Spartan:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Spartan:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    background: #8D6F56;
+    background-image: url("../imagenes/mis_imagenes/font.png");
+    *background-size: cover;
+}
+
+
+/*IMG LEFT*/
+.img-left{
+    *border: red solid 10px;
+    position: absolute;
+    bottom: 0%;
+}
+.img-left img{
+    width: 500px;
+    animation: move__vector 6s ease-in-out infinite;
+}
+
+@keyframes move__vector{
+    0%{
+        transform: translateY(10px);
+    }
+
+    25%{
+
+        transform: translateY(-10px);
+    }
+
+    100%{
+
+        transform: translateY(10px);
+    }
+}
+
+
+/*FIN LEFT*/
+
+
+/*LOGINS*/
+.Login__1{
+    *border: white solid 10px;
+    width: 1200px;
+    margin: 100px auto;
+    margin-top: 12px;
+    
+}
+
+.table{
+    *border: red solid 10px;
+    margin: 25px;
+}
+
+
+
+
+.table h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: Poppins;
+    font-size: 100px;
+    *color: white;
+    *box-shadow: 1px 1px 40px -5px #000000;
+}
+
+/*IMAGEN LOGIN*/
+.log_img{
+    *border: solid red 1px;
+    position: absolute;
+    margin: 10px auto;
+    left: 44.5%;
+    top:220px;
+    
+}
+
+.log_img img{
+    width: 220px;
+    height: 220px;
+    display: block;
+    *margin-top: 50%;
+    *margin-left:  470px ;
+    *box-shadow: 1px 1px 40px -5px #FFD4FF;
+    
+    *border: red solid 1px;
+    *background: white;
+    *border-radius: 50%;
+    margin-top: -55px;
+    margin-bottom: -120px;
+    *animation: move__vector 4s ease-in-out infinite; 
+    
+}
+
+@keyframes move__vector{
+    0%{
+        transform: translateY(10px);
+    }
+
+    25%{
+
+        transform: translateY(-10px);
+    }
+
+    100%{
+
+        transform: translateY(10px);
+    }
+}
+/*FIN DE IMAGEN MOV*/
+
+
+
+.palabs{
+    border: #4FAFE7 solid  10px;
+    background: white;
+
+    width: 510px;
+    height: 700px;
+    padding: 50px;
+    margin: 25px auto;
+    border-radius:75px;
+    *box-shadow: 1px 1px 40px -5px #a9afa9;
+    box-shadow: 1px 1px 40px -5px #fbfbfb;
+    margin-top: -35px ;
+}
+
+.palabs{
+    text-align: center;
+}
+
+.palabs h2{
+    font-size: 35px;
+    text-align: justify;
+    font-family: Poppins;
+    margin-top: 25px;
+    margin-bottom: 10px ;
+}
+
+.palabs input {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: start;  
+    font-size: 15px;  
+    padding: 15px;
+    *background: black;
+    *color: white;
+    border-style: dashed;
+    
+}
+
+.btn-enviar button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+    font-weight: 900;
+    transition: box-shadow 500ms;
+    
+}
+
+.btn-enviar button:hover{
+    box-shadow: 1px 2px  20px -5px #cacaca;
+}
+
+
+.palabs  a {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+
+
+.palabs .redes_circ{
+    *border:red solid 1px;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.redes_circ img{
+    *border: red solid 1px ;
+    width: 60px;       
+    height: 60px;
+    *margin-left: 35px;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+
+
+/*FIN DEL LOGIN*/
+
+
+
+
+
+
+
+
+
+
+
+
+

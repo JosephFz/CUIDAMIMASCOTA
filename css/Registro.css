@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    background: rgb(84, 152, 216);
+    background-image: url("../imagenes/mis_imagenes/font.png");
+}
+
+.Regist_general{
+    *border: red solid 1px ;
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.Regist_general h1{
+    margin: 30px;
+    text-align: center;
+    font-size: 55px;
+    font-family: Poppins;
+}
+
+.inputs{
+    *border: red solid 1px;
+    background-color: rgb(253, 243, 243);
+    border-radius: 15px; ;
+    width: 350px;
+    height: 420px;
+    margin: auto;
+}
+
+
+.inputs h2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Nunito;
+    font-size: 28px;
+    text-align: start;
+}
+
+.inputs input{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 270px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    *margin: auto;
+    
+}
+
+.confirms{
+    *border: red solid 1px;
+    width: 300px;
+    margin: auto;
+}
+
+.confirms input{
+    width: 185px;
+    height: 35px;
+    margin-left: 55px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1px 1px 10px  0px #00000010; 
+    cursor: pointer;
+}
+
+.notifi{
+    *border: red solid 1px;
+    margin: auto;
+    width: 400px;
+    *height: 150px;
+    display: flex; 
+    text-align: center;
+}
+
+.notifi input{
+    margin: auto;
+    margin-right: 1px;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.notifi p{
+    margin-left: 25px;
+    margin-top: 25px;
+}
